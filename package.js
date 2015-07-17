@@ -11,11 +11,11 @@ Package.onUse(function(api) {
 	
   api.versionsFrom('1.1');
 
-  api.use('constellation:console@1.1.0');
-  api.use('babrahams:temple@0.2.0');
-  api.use('constellation:subscriptions@0.2.0');
-  api.use('constellation:session@0.2.0');
-  api.use('constellation:autopublish@0.2.0');
+  api.use('constellation:console@1.1.1');
+  api.use('babrahams:temple@0.2.1');
+  api.use('constellation:subscriptions@0.2.1');
+  api.use('constellation:session@0.2.1');
+  api.use('constellation:autopublish@0.2.1');
   
 });
 
