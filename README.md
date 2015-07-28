@@ -7,7 +7,7 @@
 
 ### Demo
 
-[Meteorpad demo](http://meteorpad.com/pad/Wm7SreoMmL8QTMKkT/Constellation_Demo) that steps you through basic use of all the packages included in this distro
+[Meteorpad](http://meteorpad.com/pad/Wm7SreoMmL8QTMKkT/Constellation_Demo) that steps you through basic use of all the packages included in this distro
 
 ### What you get
 
@@ -24,7 +24,7 @@
 - "Temple" - a tab that gives you a visual look behind the scenes at your app's **templates and their data contexts**
 - a tab that shows the current **subscriptions** and the parameters used when subscribing
 - **autopublish** switch
-- a tab where you can **manipulate `Session`** keys and values (along with other ReactiveDict instances in the global scope)
+- a tab where you can **manipulate `Session` keys and values** (along with other ReactiveDict instances in the global scope)
 - **"DDP Inspector"** - for keeping an eye on the data flow between client and server
 - toggle **console size** (make it tiny)
 - **position the console** left/right, up/down (in case it's covering the wrong part of your app)
@@ -44,15 +44,15 @@ meteor add constellation:console constellation:subscriptions constellation:autop
 
 ###### Disadvantages of using a distro like this
 
-- you **can't remove individual packages**, which is effectively like adding and removing constellation tabs from the command line (although you _can_ hide their tabs using the "Config ..." tab)
+- you **can't remove individual packages** - i.e. you lose the ability to remove constellation tabs from the command line, although you can always hide tabs you don't want using the "Config ..." panel
 - we don't really want a whole lot of distros like this **cluttering Atmosphere**, but I thought there should be one curated package that gives you most of the useful Constellation functionality out of the box
-- `meteor update` isn't going to get you the **latest individual package versions** unless this distro is up to date
+- `meteor update` isn't going to get you the **latest individual package versions** unless this distro is up to date (if its not, open an issue!)
 
-### Alternative approach
+### Alternative approach to installation and configuration
 
 To get a clean `meteor list` but more control over which packages are included in your Constellation console:
 
-1. Clone this repo into your `/packages` directory
+1. Clone this repo into your app's `/packages` directory
 2. `meteor add babrahams:constellation`
 3. Open `package.js` and
   - remove lines such as `api.use('constellation:tiny@0.3.0');` if you never want to use the "Tiny" tab
