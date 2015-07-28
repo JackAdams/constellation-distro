@@ -1,9 +1,13 @@
-# A set of packages for [Constellation](https://atmospherejs.com/constellation/console)
+# Curated distro for [Constellation](https://atmospherejs.com/constellation/console)
 ###### **Constellation** is an extensible dev console for Meteor
 
 ### Installation
 
 `meteor add babrahams:constellation`
+
+### Demo
+
+[Meteorpad demo](http://meteorpad.com/pad/Wm7SreoMmL8QTMKkT/Constellation_Demo) that steps you through basic use of all the packages included in this distro
 
 ### What you get
 
@@ -41,7 +45,7 @@ meteor add constellation:console constellation:subscriptions constellation:autop
 ###### Disadvantages of using a distro like this
 
 - you **can't remove individual packages**, which is effectively like adding and removing constellation tabs from the command line (although you _can_ hide their tabs using the "Config ..." tab)
-- we don't really want a whole lot of distros like this **cluttering Atmosphere**, but I thought there should be one simple, curated package, that gives you most of the useful Constellation functionality
+- we don't really want a whole lot of distros like this **cluttering Atmosphere**, but I thought there should be one curated package that gives you most of the useful Constellation functionality out of the box
 - `meteor update` isn't going to get you the **latest individual package versions** unless this distro is up to date
 
 ### Alternative approach
@@ -49,7 +53,8 @@ meteor add constellation:console constellation:subscriptions constellation:autop
 To get a clean `meteor list` but more control over which packages are included in your Constellation console:
 
 1. Clone this repo into your `/packages` directory
-2. Open `package.js` and
+2. `meteor add babrahams:constellation`
+3. Open `package.js` and
   - remove lines such as `api.use('constellation:tiny@0.3.0');` if you never want to use the "Tiny" tab
   - add lines such as `api.use('constellation:velocity@0.3.0');` if you want to use the "Velocity" tab
   
