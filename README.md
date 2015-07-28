@@ -1,5 +1,5 @@
 # A set of packages for [Constellation](https://atmospherejs.com/constellation/console)
-#### Constellation is an extensible dev console for Meteor.
+###### **Constellation** is an extensible dev console for Meteor
 
 ### Installation
 
@@ -7,23 +7,23 @@
 
 ### What you get
 
-This distro includes the constellation base functionality:
+###### This distro includes the constellation base functionality:
 
-- interface for inserting, updating, removing documents in Mongo collections (one tab for each collection)
-- tab with an actions log and undo/redo for any changes to documents made through the Constellation console
-- account tab showing the current signed in user and also for impersonating other users
-- fullscreen switch
-- config tab for hiding and showing any tabs in the console
+- interface for inserting, updating, removing documents in **Mongo collections** (one tab for each collection)
+- tab with an **actions log and undo/redo** for any changes to documents made through the Constellation console
+- **account tab** showing the current signed in user and also for **impersonating** other users
+- **fullscreen** switch
+- **config** tab for hiding and showing any tabs in the console
 
-It also includes packages for the following optional extra tabs:
+###### It also includes packages for the following optional extra tabs:
 
-- "Temple" - a tab that gives you a visual look behind the scenes at your app's data contexts
-- a tab that shows the current subscriptions and the parameters used when subscribing
-- autopublish switch
-- a tab where you can manipulate `Session` keys and values (along with other ReactiveDict instances in the global scope)
-- "DDP Inspector" - for keeping an eye on the data flow between client and server
-- toggle console size (make it tiny)
-- position the console left/right, up/down (in case it's covering the wrong part of your app)
+- "Temple" - a tab that gives you a visual look behind the scenes at your app's **templates and their data contexts**
+- a tab that shows the current **subscriptions** and the parameters used when subscribing
+- **autopublish** switch
+- a tab where you can **manipulate `Session`** keys and values (along with other ReactiveDict instances in the global scope)
+- **"DDP Inspector"** - for keeping an eye on the data flow between client and server
+- toggle **console size** (make it tiny)
+- **position the console** left/right, up/down (in case it's covering the wrong part of your app)
 
 ### Notes 
 
@@ -35,14 +35,14 @@ meteor add constellation:console constellation:subscriptions constellation:autop
 
 ###### Advantages of using a distro like this
 
-- easy install: `meteor add babrahams:constellation`
-- when you type `meteor list` you don't see a whole lot of Constellation-related packages - just `babrahams:constellation`
+- **easy install:** `meteor add babrahams:constellation`
+- **no clutter:** when you type `meteor list` - you don't see a whole lot of Constellation-related packages, just `babrahams:constellation`
 
 ###### Disadvantages of using a distro like this
 
-- you can't remove individual packages, which is effectively like adding and removing constellation tabs from the command line (although you _can_ hide their tabs using the "Config ..." tab)
-- we don't really want a whole lot of distros like this cluttering Atmosphere, but I thought there should be one simple, curated package, that gives you most of the useful Constellation functionality
-- `meteor update` isn't going to get you the latest individual package versions unless this distro is up to date
+- you **can't remove individual packages**, which is effectively like adding and removing constellation tabs from the command line (although you _can_ hide their tabs using the "Config ..." tab)
+- we don't really want a whole lot of distros like this **cluttering Atmosphere**, but I thought there should be one simple, curated package, that gives you most of the useful Constellation functionality
+- `meteor update` isn't going to get you the **latest individual package versions** unless this distro is up to date
 
 ### Alternative approach
 
