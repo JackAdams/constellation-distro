@@ -1,6 +1,6 @@
 Package.describe({
   name: 'babrahams:constellation',
-  version: '0.1.3',
+  version: '0.1.4',
   summary: 'A curated set of packages for Constellation',
   git: 'https://github.com/JackAdams/constellation-distro.git',
   documentation: 'README.md',
@@ -15,7 +15,7 @@ Package.onUse(function(api) {
   api.use('babrahams:temple@0.3.1');
   api.use('constellation:subscriptions@0.3.1');
   api.use('constellation:session@0.3.2');
-  api.use('constellation:autopublish@0.3.2');
+  api.use('constellation:autopublish@0.3.3');
   api.use('constellation:tiny@0.3.1');
   api.use('constellation:position@0.3.2');
   api.use('lai:ddp-inspector@1.1.6');
