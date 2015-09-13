@@ -1,6 +1,6 @@
 Package.describe({
   name: 'babrahams:constellation',
-  version: '0.1.6',
+  version: '0.1.7',
   summary: 'A curated set of packages for Constellation',
   git: 'https://github.com/JackAdams/constellation-distro.git',
   documentation: 'README.md',
