@@ -18,7 +18,7 @@ Package.onUse(function(api) {
   api.use('constellation:autopublish@0.3.4');
   api.use('constellation:tiny@0.3.1');
   api.use('constellation:position@0.3.2');
-  api.use('lai:ddp-inspector@1.1.6');
+  api.use('lai:ddp-inspector@1.1.7');
   
   api.imply('constellation:console');
   
