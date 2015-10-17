@@ -7,7 +7,7 @@
 
 ### Demo
 
-[Meteorpad](http://meteorpad.com/pad/Wm7SreoMmL8QTMKkT/Constellation_Demo) that steps you through basic use of all the packages included in this distro
+[Constellation demo site](http://constellation-demo.meteor.com/demo) that steps you through basic use of most the packages included in this distro
 
 ### What you get
 
