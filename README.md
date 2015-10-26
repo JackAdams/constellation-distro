@@ -1,6 +1,8 @@
 # Curated distro for [Constellation](https://atmospherejs.com/constellation/console)
 ###### **Constellation** is an extensible dev console for Meteor
 
+![Constellation Screenshot](screenshot.png)
+
 ### Installation
 
 `meteor add babrahams:constellation`
