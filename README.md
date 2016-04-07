@@ -9,7 +9,7 @@
 
 ### Demo
 
-[Constellation demo site](http://constellation-demo.meteor.com/demo) that steps you through basic use of most the packages included in this distro
+[Constellation demo site](http://constellation.taonova.com/demo) that steps you through basic use of most the packages included in this distro
 
 ### What you get
 
