@@ -1,6 +1,6 @@
 Package.describe({
   name: 'babrahams:constellation',
-  version: '0.4.3',
+  version: '0.4.4',
   summary: 'A curated set of packages for Constellation',
   git: 'https://github.com/JackAdams/constellation-distro.git',
   documentation: 'README.md',
@@ -19,7 +19,7 @@ Package.onUse(function(api) {
   api.use('constellation:tiny@0.4.0');
   api.use('constellation:position@0.4.0');
   api.use('lai:ddp-inspector@1.1.9');
-  api.use('constellation:plugins@0.4.0');
+  api.use('constellation:plugins@0.4.1');
   
   api.imply('constellation:console');
   

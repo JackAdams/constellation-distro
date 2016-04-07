@@ -2,7 +2,7 @@ aldeed:template-extension@3.4.3
 amplify@1.0.0
 babel-compiler@5.8.24_1
 babel-runtime@0.1.4
-babrahams:constellation@0.4.2
+babrahams:constellation@0.4.3
 babrahams:editable-json@0.6.3
 babrahams:temple@0.4.1
 base64@1.0.4
@@ -18,7 +18,7 @@ constellation:autopublish@0.4.0
 constellation:console@1.4.0
 constellation:plugins@0.4.0
 constellation:position@0.4.0
-constellation:session@0.4.0
+constellation:session@0.4.1
 constellation:subscriptions@0.4.1
 constellation:tiny@0.4.0
 dburles:mongo-collection-instances@0.3.4
@@ -40,7 +40,7 @@ id-map@1.0.4
 jquery@1.11.4
 lai:collection-extensions@0.1.4
 lai:ddp-inspector@1.1.9
-local-test:babrahams:constellation@0.4.2
+local-test:babrahams:constellation@0.4.3
 logging@1.0.8
 meteor@1.1.10
 minifiers@1.1.7
