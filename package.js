@@ -1,6 +1,6 @@
 Package.describe({
   name: 'babrahams:constellation',
-  version: '0.4.9',
+  version: '0.4.10',
   summary: 'A curated set of packages for Constellation',
   git: 'https://github.com/JackAdams/constellation-distro.git',
   documentation: 'README.md',
@@ -11,7 +11,7 @@ Package.onUse(function(api) {
 	
   api.versionsFrom('1.0');
 
-  api.use('constellation:console@1.4.4');
+  api.use('constellation:console@1.4.5');
   api.use('babrahams:temple@0.4.5');
   api.use('constellation:subscriptions@0.4.5');
   api.use('constellation:session@0.4.5');
